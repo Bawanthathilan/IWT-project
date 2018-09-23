@@ -1,0 +1,71 @@
+select {
+ width: 65%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 25%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
+#kids-form {
+    border-radius: 10px;
+    background-color: #b3ffff ;
+    padding: 20px;
+    width: 1000px;
+    height:400px;
+
+}
+
+input[type = text] {
+
+    width: 15%;
+}
+
+#myImage{
+    width: 50%;
+    height: 50%
+}
+
+.a{
+    width: auto;
+    color:blue;
+    float:left;
+    position:relative;
+    padding-right : 20px;
+    padding-left : 20px;
+}
+
+.aaa {
+    position: relative;
+    top:60px;
+}
+
+.kid {
+    position:relative;
+    margin-top:20%;
+    margin-left:70%;
+   
+}
+
+.kids-intro{
+    font-size:30px;
+    color:white;
+    text-align:center;
+}

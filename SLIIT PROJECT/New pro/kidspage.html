@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Birthday.com </title>
+	<link rel ="stylesheet" href="css/stylesheet.css">
+	<link rel ="stylesheet" href="css/navstyle.css">
+	<link rel ="stylesheet" href="css/slider.css">
+	<link rel ="stylesheet" href="css/kidsstyle.css">
+	 
+	  <script src="css/java.js"></script> 
+	 <style>
+		body {
+			background-image: url("images/back2.jpg");
+			background-size:5% repeat;
+			
+			
+		}
+		.footer{
+			position:fixed;
+			left:0;
+			bottom :0;
+			width:100%
+			background-color:white;
+			color: white;
+			text-align:center;
+		}
+		{
+			box-sizing: border-box;
+		}
+		.card{
+			position: relative;
+			float: left;
+			width: 33.33%;
+			padding: 10px;
+			margin-left: 50px;
+
+		}
+		.row :: after {
+			content: "";
+			clear: both;display: 
+
+		}
+
+</style>
+ 
+	</head>
+
+
+		<header>
+		<div class="header">
+			<img src ="pictures/logo.jpg" >
+		</div>
+		
+		<div class="banner">
+			<img src="images/pi2.png" alt="logo" class="logo">
+		</div>
+		<div class="topnav">
+		<a href="home.html">Home</a>
+		<a class="active" href="kids.html">Kids Birthday</a>
+		<a href="adult.html">Adult Birthday</a>
+		<a href="Supplies.html">Party Supplies</a>
+		<a href="book2.html"> Booking</a>
+		<a href="Contact.html">Contact Us</a>
+		
+</div> 
+	
+	
+		
+		</header>
+		<div class="kids-intro">
+<p>Celebrate your child's first birthday with party themes for girls and boys! Find complete 1st Birthday party themes including tableware, birthday decorations, party hats and fun party games for kids.</p>
+
+</div>
+<br><br><br>
+
+
+
+
+<body>	
+
+<div id="kids-form">
+
+	<form >
+    <label for="gender">Gender</label>
+ 
+   <input type="radio" name="rdo" value="Female">Female</input><br>
+        &emsp;   &emsp;   &emsp; <input type="radio" name="rdo" value="Male">Male</input><br>
+    
+    <label for="Age">Age</label>
+      &emsp;  &emsp;  &ensp;<select name="Age">
+      <option value="1-5">1-5</option>
+      <option value="6-10">6-10</option>
+      <option value="11-15">11-15</option>
+     </select><br>
+
+    <label for="catergory">Catergory</label>
+    <select name="catergory">
+      <option value="basicOutdoorPlan">Basic Out-door Plan</option>
+      <option value="basiIndoor">Basic In-door Plan</option>
+      <option value="Premium">Premium</option>
+    </select><br>
+  
+     &emsp;  &emsp; <input type="submit" value="Submit">
+  </form>
+</div>
+
+<br>
+
+<br><br>
+
+<div >
+<center><marquee><img src= "images/kidsImage7.jpg" style= "width:450px; height: 450px;" align="margin-left"></marquee></center>
+</div>
+
+
+<img src="images/kidsimage1.jpg" id="myImage">
+<div class="aaa">
+<button onclick = "document.getElementById('myImage').src='images/kidsImage1.jpg' "class="a" >Basic Outdoor Plan</button>
+<button onclick = "document.getElementById('myImage').src='images/kidsImage2.jpg' "class="a" style="position: relative;left: 20px;">Basic In-door Plan</button>
+<button onclick = "document.getElementById('myImage').src='images/kidsImage3.jpg' "class="a" style="position: relative;left: 40px;">Premium</button>
+    
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+<br><br><br> 
+<div class="footer-main-div">
+	<div class="footer-social-icons">
+		<ul>
+			<p class="follow">FOLLOW US ON</p>
+			 
+			<li><a href = "https://www.facebook.com/" target="_blank"> <img src = "pictures/fb.png" width = "60px" height="60px"> </a></li>
+			<li><a href = "https://twitter.com/?lang=en" target="_blank"> <img src = "pictures/twi.png" width = "60px" height="60px"> </a></li>
+			<li><a href = "https://lk.linkedin.com/" target="_blank"> <img src = "pictures/li.png" width = "60px" height="60px"> </a></li>
+			<li><a href = "https://www.instagram.com/?hl=en" target="_blank"> <img src = "pictures/insta.png" width = "60px" height="60px"> </a></li>
+		</ul>
+	</div>
+
+		<div class="footer-menu-one">
+			 <ul><img src ="pictures/d.jpg" width=1020px" height=130px"></ul>
+		</div>
+		 
+		
+</div>
+
+
+
+
+
+
+
+
+
+
+		
+		
+			
+	</body>
+
+	<script type="text/javascript">
+
+	function loadImage(imageLink,description){
+	var des = document.getElementById("description");
+	var img= document.getElementById("myImage");
+	des.InnerHTML = description;
+	img.src=imageLink;
+}
+</script>
+</html>

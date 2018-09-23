@@ -1,0 +1,81 @@
+label{
+	color:gray;
+	font-size:20px;
+}
+.center{
+	color:red;
+	font-size:30px;
+	text-align:center;
+}
+.center1{
+	color:red;
+	font-size:25px;
+	text-align:center;
+}
+input[type=text] {
+width: 75%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+position:relative;
+}
+input[type=submit] {
+width: 75%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+input[type=date] {
+width: 75%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+input[type=time] {
+width: 75%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+input[type=e-mail] {
+width: 75%;
+background-color: white;
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+
+	
+}
+input[type=address] {
+width: 75%;,
+background-color:;
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+
+.back{
+	text-align:center;
+	position:center;
+}<section>
+<form >
+  
